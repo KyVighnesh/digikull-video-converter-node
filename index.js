@@ -13,7 +13,7 @@ app.use(cors())
 
 const fs = require("fs")
 
-const  multipartMiddleware = multipart({ uploadDir: `${path.join(__dirname,"./uploads")}` });
+const  multipartMiddleware = multipart({ uploadDir: `${path.join(__dirname,"../uploads")}` });
 
 
 
